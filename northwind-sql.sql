@@ -73,7 +73,6 @@ SELECT FirstName, LastName
 FROM Employees;
 
 -- 12. What employees have "manager" in their titles?
--- Question 12: Find employees with "manager" in their job title
 
 SELECT FirstName, LastName, Title
 FROM Employees
@@ -92,6 +91,7 @@ FROM Employees
 WHERE Salary BETWEEN 2000 AND 2500;
 
 -- 15. List all of the information about all of Northwind's suppliers.
+
 SELECT * FROM Suppliers;
 
 -- 16. Examine the Products table. How do you know what supplier supplies
